@@ -13,7 +13,7 @@ module kurst.threed {
         //------------------------------------------------------------------------------------------------------------------------------------------------------------
         // Camera Controller
 
-        private _mouseWheelHandler  : a///;ny;
+        private _mouseWheelHandler  : any;
         private _lastPanAngle       : number;
         private _lastTiltAngle      : number;
         private _lastMouseX         : number;
