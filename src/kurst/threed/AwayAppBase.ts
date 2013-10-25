@@ -13,7 +13,7 @@ module kurst.threed {
         //------------------------------------------------------------------------------------------------------------------------------------------------------------
         // Camera Controller
 
-        private _mouseWheelHandler  : any;
+        private _mouseWheelHandler  : a///;ny;
         private _lastPanAngle       : number;
         private _lastTiltAngle      : number;
         private _lastMouseX         : number;
@@ -46,10 +46,10 @@ module kurst.threed {
          */
         public resize( )
         {
-            this.view.y         = 0;
-            this.view.x         = 0;
-            this.view.width     = window.innerWidth;
-            this.view.height    = window.innerHeight;
+            this.view.y         = 0; // Set view X position
+            this.view.x         = 0; // Set view Y position
+            this.view.width     = window.innerWidth; // Set view Width
+            this.view.height    = window.innerHeight; // Set view Height
         }
 
         /**
@@ -58,7 +58,7 @@ module kurst.threed {
          */
         public render( dt : number )
         {
-            this.view.render();
+            this.view.render(); // Render the Away3D View
         }
 
         /**
