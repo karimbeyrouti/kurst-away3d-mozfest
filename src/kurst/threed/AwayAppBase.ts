@@ -13,17 +13,17 @@ module kurst.threed {
         //------------------------------------------------------------------------------------------------------------------------------------------------------------
         // Camera Controller
 
-        private _panAngle           : number = 45;
-        private _tiltAngle          : number = 20;
-        private _minTiltAngle       : number = 5;
+        private _mouseWheelHandler  : any;
         private _lastPanAngle       : number;
         private _lastTiltAngle      : number;
         private _lastMouseX         : number;
         private _lastMouseY         : number;
+        private _panAngle           : number = 45;
+        private _tiltAngle          : number = 20;
+        private _minTiltAngle       : number = 5;
         private _minDistance        : number = 100;
         private _maxDistance        : number = 2000;
         private _move               : boolean = false;
-        private _mouseWheelHandler  : any;
 
         //------------------------------------------------------------------------------------------------------------------------------------------------------------
 
