@@ -1,7 +1,7 @@
 //------------------------------
 // Compile String
 //------------------------------
-// tsc src/CompilerTest.ts --target ES5 --sourcemap --out demo/CompilerTest.js
+// tsc src/ComplierTest.ts --target ES5 --sourcemap --out demo/js/CompilerTest.js
 //------------------------------
 
 module typescript.test

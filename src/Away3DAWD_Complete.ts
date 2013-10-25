@@ -5,7 +5,7 @@
 //------------------------------
 // Compile String
 //------------------------------
-// tsc src/Away3DAWD_Complete.ts --target ES5 --sourcemap --out demo/Away3DAWD_Complete.js
+// tsc src/Away3DAWD_Complete.ts --target ES5 --sourcemap --out demo/js/Away3DAWD_Complete.js
 //------------------------------
 
 module demo {
