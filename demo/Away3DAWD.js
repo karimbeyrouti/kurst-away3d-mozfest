@@ -6,8 +6,6 @@ var kurst;
             //------------------------------------------------------------------------------------------------------------------------------------------------------------
             function AwayAppBase() {
                 var _this = this;
-                //------------------------------------------------------------------------------------------------------------------------------------------------------------
-                // Camera Controller
                 this._panAngle = 45;
                 this._tiltAngle = 20;
                 this._minTiltAngle = 5;
@@ -252,7 +250,7 @@ var kurst;
     })(kurst.threed || (kurst.threed = {}));
     var threed = kurst.threed;
 })(kurst || (kurst = {}));
-///<reference path="../src/kurst/threed/AwayAppBase.ts" />
+///<reference path="kurst/threed/AwayAppBase.ts" />
 ///<reference path="../libs/Away3D.next.d.ts" />
 var __extends = this.__extends || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];

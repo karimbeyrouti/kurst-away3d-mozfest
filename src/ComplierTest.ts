@@ -1,3 +1,9 @@
+//------------------------------
+// Compile String
+//------------------------------
+// tsc src/CompilerTest.ts --target ES5 --sourcemap --out demo/CompilerTest.js
+//------------------------------
+
 module typescript.test
 {
 	export class CompilerTest
